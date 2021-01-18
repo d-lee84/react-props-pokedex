@@ -1,7 +1,9 @@
 import Pokecard from "./Pokecard";
 import "./Pokedex.css";
-/* render a sequence of Pokecard components */
+/* render a sequence of Pokecard components, takes in pokemons array
+[ { id: 4, name: 'Charmander', type: 'fire', base_experience: 62 }, ... ] */
 function Pokedex({ pokemons }) {
+  // 
   return (<div className="Pokedex">
     {pokemons.map(p => <Pokecard {...p} />)}
   </div>)

@@ -12,6 +12,8 @@ function Pokecard({id, name, type, base_experience}) {
   )
 }
 
+
+//baseurl
 /** Generates the pokemon image url */
 
 function pokemonImgUrl(id) {
