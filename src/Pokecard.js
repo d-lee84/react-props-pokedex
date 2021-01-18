@@ -1,4 +1,4 @@
-
+import "./Pokecard.css";
 /** Generate one pokecard for a pokemon */
 
 function Pokecard({id, name, type, base_experience}) {
@@ -17,3 +17,5 @@ function Pokecard({id, name, type, base_experience}) {
 function pokemonImgUrl(id) {
   return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`
 }
+
+export default Pokecard;
